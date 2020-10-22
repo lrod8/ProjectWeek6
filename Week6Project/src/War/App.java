@@ -42,7 +42,7 @@ public class App {
 				p2.incrementScore();
 				System.out.println(p2.getName() + " wins the round!");
 			} else if (p1card.getValue() == p2card.getValue()) {
-				System.out.println("It's a tie!");
+				System.out.println("It's a draw!");
 			}
 			System.out.println("************************************");
 		}
